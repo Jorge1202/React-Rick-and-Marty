@@ -1,0 +1,43 @@
+@import '../../assets/css/Vars.scss';
+
+.informativo{
+    height: auto;
+    margin-bottom: 1rem;
+}
+.informativo .card{
+    cursor: pointer;
+}
+
+.theme-dark .card.active {
+    background-color: $color-dark2;
+    box-shadow: 0 0 7px 0px $clr_green1;
+}
+
+.theme-light .card.active {
+    background-color: $color10;
+    box-shadow: 0 0 7px 0px $clr_green1;
+    color: $clr_green2;
+}
+
+
+
+.input-search {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: unset;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4), 0 7px 13px -3px rgb(0 0 0 / 30%), inset 0 -3px 0 rgb(0 0 0 / 20%);
+}
+
+.theme-dark .input-search {
+    background-color: $color-dark2;
+}
+
+.theme-dark .input-search:hover, .theme-dark .input-search:focus {
+    background-color: $color-dark2 !important;
+    color: $color10 !important;
+}
+
+.col-auto{
+    margin: 13px 0 25px 0;
+}

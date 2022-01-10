@@ -1,0 +1,49 @@
+@import '../../assets/css/Vars.scss';
+
+.cards{
+    margin-bottom: 3rem;
+}
+
+.card{
+    margin-bottom: 20px;
+    background-color: rgb(255,255,255, 0);
+}
+
+.theme-dark .card{
+    border: 1px solid rgb(255 255 255 / 13%);
+}
+
+.cards .colhover{
+    transition: padding 4s, top 4s;
+}
+
+.cards .colhover:hover{
+    padding: -0.3;
+    position: relative;
+    cursor: pointer;
+}
+
+.colhover .card:hover{
+    position: absolute;
+    top: -6px;
+}
+
+.theme-dark .card:hover{
+    background-color: $color-dark2;
+    box-shadow:0 0 18px 6px $color-dark1;
+    box-shadow: 0 0 7px 0px $clr_green1;
+}
+.theme-light .card:hover{
+    box-shadow: 0 0 18px 0 $color6;
+}
+
+.iconlike{
+    position: relative;
+}
+.iconlike i{
+    position: absolute;
+    color: $clr_green1;
+    top: -50px;
+    right: 0;
+    font-size: 20px;
+}

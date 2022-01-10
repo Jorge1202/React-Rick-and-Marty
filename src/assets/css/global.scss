@@ -1,6 +1,19 @@
-$basecolor: #000;
-$color: #962020;
+@import './Vars';
+
 body {
-    background-color: $basecolor;
-    color: $color;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: $color-dark1;
+}
+
+#app{
+    width: 100vw;
+    height: 100vh;   
+}
+
+@media (max-width: 576px){
+    .col-xs-6{
+        flex: 0 0 auto;
+        width: 50%;
+    }
 }

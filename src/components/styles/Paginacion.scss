@@ -1,0 +1,43 @@
+@import '../../assets/css/Vars.scss';
+
+.paginacion{
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.paginacion nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.paginacion .page-link{
+    cursor: pointer;
+}
+
+.theme-dark .paginacion .page-link{
+    color: $clr_green1;
+    background-color: $color-dark1;
+    border: 1px solid $color-light;
+}
+.theme-light .paginacion .page-link{
+    color: $clr_green2;
+    background-color: $color10;
+    border: 1px solid $color-light;
+}
+
+.theme-dark .paginacion .page-link:hover{
+    background-color: $color-dark2;
+}
+.theme-light .paginacion .page-link:hover{
+    color: $color10;
+    background-color: $clr_green3;
+}
+
+.theme-dark .paginacion .page-item.disabled .page-link{
+    color: $color4;
+    background-color: $color-dark1;
+}
+.theme-light .paginacion .page-item.disabled .page-link{
+    color: $color4;
+    background-color: $color6;
+}

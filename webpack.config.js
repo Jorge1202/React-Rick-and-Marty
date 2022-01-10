@@ -10,7 +10,10 @@ module.exports = {
     },
     mode: "development",
     resolve: { // extensión de archivos a tomar en cuenta
-        extensions: ['.js', '.jsx']
+        extensions: ['.js', '.jsx'],
+        alias:{
+            '@img': path.resolve(__dirname, 'src/assets/media/img/'),
+        }
     },
     module: { // loaders para cada tipo de archivo
         rules: [ // reglas para usar
@@ -36,6 +39,11 @@ module.exports = {
                     "css-loader",
                     "sass-loader"
                 ]
+            },
+            {
+                test: /\.(jpe?g|png|gif|svg|mp4)$/i,
+                type: 'asset',
+                // loader: 'file-loader',
             },
         ]
     },

@@ -1,0 +1,66 @@
+@import '../../assets/css/Vars.scss';
+
+.theme-dark .navbar{
+    --bs-bg-opacity: 80%;
+    background-color: rgba($color-dark1, var(--bs-bg-opacity)) !important;
+}
+.theme-light .navbar{
+    --bs-bg-opacity: 80%;
+    background-color: rgba($color10, var(--bs-bg-opacity)) !important;
+}
+
+.navbar .navbar_container{
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar_container{
+    width: 100%;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.theme-dark .nav_title{
+    color: $clr_green1 !important;
+}
+.theme-light .nav_title{
+    color: $clr_green2 !important;
+}
+  
+.theme-dark .nav-link{
+    color: $color10;
+}
+.theme-light .nav-link{
+    color: $color-light;
+}
+
+
+.theme-dark .btn_theme button{
+    color: $color10;
+    // box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+.theme-light .btn_theme button{
+    color: $color-light;
+    // box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.theme-dark .btn_theme .btn:focus{
+    box-shadow: 0 0 0 0rem $color-dark1;
+}
+.theme-light .btn_theme .btn:focus{
+    box-shadow: 0 0 0 0rem $color10;
+}
+
+.btn_theme i{
+    font-size: 20px;
+}
+
+
+
+
+
+
