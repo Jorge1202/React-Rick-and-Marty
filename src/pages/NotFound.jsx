@@ -7,7 +7,6 @@ const NotFound = () => {
     return (
         <div className='NotFound'>
             <div className='conttenido' style={{ backgroundImage: `url(${fondo})`}}>
-
             </div>
         </div>
     );

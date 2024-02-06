@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack serve --open",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "Jorge Balderas",
   "license": "MIT",
@@ -30,9 +32,11 @@
   "devDependencies": {
     "css-loader": "^6.5.1",
     "file-loader": "^6.2.0",
+    "gh-pages": "^5.0.0",
     "mini-css-extract-plugin": "^2.4.5",
     "sass": "^1.45.2",
     "sass-loader": "^12.4.0",
     "style-loader": "^3.3.1"
-  }
+  },
+  "homepage": "https://Jorge1202.github.io/React-Rick-and-Marty"
 }
