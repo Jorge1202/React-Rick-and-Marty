@@ -1,5 +1,6 @@
 # See the page
-See the page (https://jorge1202.github.io/React-Rick-and-Marty/) 
+See the page [React Rick and Morty](https://jorge1202.github.io/React-Rick-and-Marty/).**
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
