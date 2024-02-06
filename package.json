@@ -34,5 +34,7 @@
     "sass": "^1.45.2",
     "sass-loader": "^12.4.0",
     "style-loader": "^3.3.1"
-  }
+    "gh-pages": "^5.0.0"
+  },
+  "homepage": "https://Jorge1202.github.io/React-Rick-and-Marty"
 }
