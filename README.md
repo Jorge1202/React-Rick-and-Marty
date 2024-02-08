@@ -1,5 +1,5 @@
 # See the page
-See the page [React Rick and Morty](https://jorge1202.github.io).**
+See the page [React Rick and Morty](https://jorge1202.github.io/React-Rick-and-Marty/).**
 
 # Getting Started with Create React App
 
@@ -21,7 +21,7 @@ You may also see any lint errors in the console.
 ### `npm run deploy`
 
 Generate a deploy to github pages
-See the page (https://jorge1202.github.io) 
+See the page (https://jorge1202.github.io/React-Rick-and-Marty/) 
 
 ### `npm test`
 
