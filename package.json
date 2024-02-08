@@ -8,11 +8,7 @@
     "start": "webpack serve --open",
     "build": "webpack --mode production",
     "predeploy": "npm run build",
-<<<<<<< HEAD
-    "deploy": "gh-pages -d build"
-=======
     "deploy": "gh-pages -d dist"
->>>>>>> gh-peges
   },
   "author": "Jorge Balderas",
   "license": "MIT",
@@ -36,19 +32,11 @@
   "devDependencies": {
     "css-loader": "^6.5.1",
     "file-loader": "^6.2.0",
-<<<<<<< HEAD
     "gh-pages": "^6.1.1",
-=======
-    "gh-pages": "^5.0.0",
->>>>>>> gh-peges
     "mini-css-extract-plugin": "^2.4.5",
     "sass": "^1.45.2",
     "sass-loader": "^12.4.0",
     "style-loader": "^3.3.1"
   },
   "homepage": "https://Jorge1202.github.io/React-Rick-and-Marty"
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> gh-peges
