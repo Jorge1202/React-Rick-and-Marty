@@ -15,25 +15,6 @@ const info = {
     prev: "",
 }
 
-// const initialState = {
-//     favorites: [],
-//     ContadorFav: 0,
-// }
-// const favoriteReducer = (state, action) => {
-
-//     switch (action.type) {
-
-//         case 'ADD_TO_FAVORITE':
-//             return {
-//                 ...state,
-//                 favorites: [...state.favorites, action.payload]
-//             }
-//         default:
-//             return state;
-//     }
-
-// }
-
 const Home = () => {
     const [listCharacter, setCharacter] = useState([]);
     const [listFavorites, setListFavorites] = useState(JSON.parse(localStorage.getItem('favolite')) ? JSON.parse(localStorage.getItem('favolite')) : []);
@@ -41,9 +22,6 @@ const Home = () => {
     const [pagina, setPagina] = useState('')
     const [sections, setSections] = useState('Characters')
     const [search, setSearch] = useState('');
-    
-    // const [favorites, dispatch] = useReducer(favoriteReducer, initialState);
-    const [count, setCount] = useState(0);
     
     useEffect(async () => {
         await getDatosCharacter(); 
